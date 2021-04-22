@@ -1,0 +1,6 @@
+11:57:25.212 [main] DEBUG TestCases.ParticipantLogin - Chrome Browser is Launched Successfully
+11:57:25.894 [main] INFO  TestCases.ParticipantLogin - Chrome Browser Maximized Successfully
+11:58:44.000 [main] ERROR TestCases.ParticipantLogin - Successfully Navigated to URL: https://leqlb040.upoint.qc.alight.com/web/bmc/login
+11:58:44.488 [main] DEBUG ObjectRepository.participantLoginPage - Found Element: [[RemoteWebDriver: firefox on LINUX (640a3984-e05e-467f-9a12-79e426c976a5)] -> id: _ParticipantLogon20_WAR_ahcommonauthportlet_userId]
+11:58:45.330 [main] FATAL ObjectRepository.participantLoginPage - Found Element: [[RemoteWebDriver: firefox on LINUX (640a3984-e05e-467f-9a12-79e426c976a5)] -> id: _ParticipantLogon20_WAR_ahcommonauthportlet_password]
+11:58:46.211 [main] OFF   ObjectRepository.participantLoginPage - Always Logging: [[RemoteWebDriver: firefox on LINUX (640a3984-e05e-467f-9a12-79e426c976a5)] -> id: _ParticipantLogon20_WAR_ahcommonauthportlet_enableNPVCheckbox]

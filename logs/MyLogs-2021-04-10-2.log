@@ -1,0 +1,6 @@
+11:06:22.230 [main] DEBUG TestCases.ParticipantLogin - Chrome Browser is Launched Successfully
+11:06:22.387 [main] INFO  TestCases.ParticipantLogin - Chrome Browser Maximized Successfully
+11:06:45.474 [main] ERROR TestCases.ParticipantLogin - Successfully Navigated to URL: https://leqlb040.upoint.qc.alight.com/web/bmc/login
+11:06:45.532 [main] DEBUG ObjectRepository.participantLoginPage - Found Element: [[ChromeDriver: chrome on WINDOWS (e2fb931cb244540e784f489d3c921858)] -> id: _ParticipantLogon20_WAR_ahcommonauthportlet_userId]
+11:06:48.342 [main] FATAL ObjectRepository.participantLoginPage - Found Element: [[ChromeDriver: chrome on WINDOWS (e2fb931cb244540e784f489d3c921858)] -> id: _ParticipantLogon20_WAR_ahcommonauthportlet_password]
+11:06:48.879 [main] OFF   ObjectRepository.participantLoginPage - Always Logging: [[ChromeDriver: chrome on WINDOWS (e2fb931cb244540e784f489d3c921858)] -> id: _ParticipantLogon20_WAR_ahcommonauthportlet_enableNPVCheckbox]

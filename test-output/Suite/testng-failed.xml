@@ -4,17 +4,25 @@
   <listeners>
     <listener class-name="Resources_Global.Listeners"/>
   </listeners>
-  <test thread-count="5" name="ParticipantLoginTest(failed)">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="TestCases.ParticipantLogin">
+      <class name="TestCases.ParallelTest">
         <methods>
-          <include name="FirefoxParticipantLoginTest"/>
-          <include name="Teardown"/>
+          <include name="TearDown"/>
+          <include name="test2"/>
           <include name="Initialize"/>
-          <include name="ChromeParticipantLoginTest"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- TestCases.ParticipantLogin -->
+      </class> <!-- TestCases.ParallelTest -->
+      <class name="TestCases.ParallelTest1">
+        <methods>
+          <include name="Initialize"/>
+          <include name="TearDown"/>
+          <include name="test3"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- TestCases.ParallelTest1 -->
     </classes>
-  </test> <!-- ParticipantLoginTest(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -79,7 +79,7 @@ public class base {
 		
 	}
 	
-	public void takeSnapShot(String filename) throws Exception{
+	public void takeSnapShot(String filename, WebDriver driver) throws Exception{
 
         //Convert web driver object to TakeScreenshot
 

@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 77.849 s <<< FAILURE! - in TestSuite
+TestCases.ParallelTest1.test3  Time elapsed: 55.72 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [false] but found [true]
+	at TestCases.ParallelTest1.test3(ParallelTest1.java:44)
+
+TestCases.ParallelTest.test1  Time elapsed: 56.139 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [false] but found [true]
+	at TestCases.ParallelTest.test1(ParallelTest.java:44)
+

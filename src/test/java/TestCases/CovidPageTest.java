@@ -42,7 +42,7 @@ public class CovidPageTest extends base {
 	@Test
 	public void ChromeParticipantLoginTest() throws Exception {
 		driver.get(getProperty("CovidTracker"));
-		takeSnapShot("test");
+		takeSnapShot("test",driver);
 		System.out.println(driver.getTitle());
 		Log.error("Successfully Navigated to URL: " + getProperty("CovidTracker"));
 		SetExplicitWait(20).until(ExpectedConditions.visibilityOf(cop.covidTrackerTable()));

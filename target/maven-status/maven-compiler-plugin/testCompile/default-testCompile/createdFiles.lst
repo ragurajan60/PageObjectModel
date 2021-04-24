@@ -1,0 +1,8 @@
+TestCases\CovidPageTest.class
+TestCases\ParticipantLogin.class
+ObjectRepository\AutomationTestPages.class
+TestCases\SampleClass1.class
+ObjectRepository\participantLoginPage.class
+ObjectRepository\Covid19OrgPage.class
+ObjectRepository\participantHomePage.class
+TestCases\SampleClass.class
